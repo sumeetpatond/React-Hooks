@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 /**
- * App Component at root level
+ * Counter using simple useState hook
  * @return {JSXElement} JSX Element
  */
 function Counter() {
