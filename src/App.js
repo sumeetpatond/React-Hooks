@@ -1,8 +1,8 @@
 import "./App.css";
-import Counter from "./components/Counter";
-import Counter2 from "./components/Counter2";
-import Counter3 from "./components/Counter3";
-import Counter4 from "./components/Counter4";
+import Counter from "./usestate-components/Counter";
+import Counter2 from "./usestate-components/Counter2";
+import Counter3 from "./usestate-components/Counter3";
+import Counter4 from "./usestate-components/Counter4";
 
 /**
  * App Component at root level.
