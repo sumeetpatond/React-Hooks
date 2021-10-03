@@ -3,6 +3,9 @@ import Counter from "./usestate-components/Counter";
 import Counter2 from "./usestate-components/Counter2";
 import Counter3 from "./usestate-components/Counter3";
 import Counter4 from "./usestate-components/Counter4";
+import Counter5 from "./useeffect-components/Counter5";
+import Counter6 from "./useeffect-components/Counter6";
+import Counter7 from "./useeffect-components/Counter7";
 
 /**
  * App Component at root level.
@@ -15,6 +18,9 @@ function App() {
       Counter2: <Counter2 /> <br />
       Counter3: <Counter3 /> <br />
       Counter4: <Counter4 /> <br />
+      Counter5: <Counter5 /> <br />
+      Counter6: <Counter6 /> <br />
+      Counter7: <Counter7 /> <br />
     </div>
   );
 }
