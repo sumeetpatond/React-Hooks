@@ -9,6 +9,7 @@ import Counter7 from "./useeffect-components/Counter7";
 import Counter8 from "./useeffect-components/Counter8";
 import Counter9 from "./useContext-component/Counter9";
 import UserContext from "./useContext-component/UserContext";
+import Counter10 from "./UseCallback/Counter10";
 
 /**
  * App Component at root level.
@@ -29,6 +30,8 @@ function App() {
       <UserContext.Provider value="Sumeet">
         <Counter9 />
       </UserContext.Provider>
+      <br />
+      Counter10: <Counter10 /> <br />
       <br />
     </div>
   );
