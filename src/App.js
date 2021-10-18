@@ -12,6 +12,7 @@ import UserContext from "./useContext-component/UserContext";
 import Counter10 from "./UseCallback/Counter10";
 import Counter11 from "./UseMemo/Counter11";
 import Counter12 from "./UseRef/Counter12";
+import Counter13 from "./UseReducer/Counter13";
 
 /**
  * App Component at root level.
@@ -36,6 +37,7 @@ function App() {
       Counter10: <Counter10 /> <br />
       Counter11: <Counter11 /> <br />
       Counter12: <Counter12 /> <br />
+      Counter13: <Counter13 /> <br />
       <br />
     </div>
   );
