@@ -10,6 +10,7 @@ import Counter8 from "./useeffect-components/Counter8";
 import Counter9 from "./useContext-component/Counter9";
 import UserContext from "./useContext-component/UserContext";
 import Counter10 from "./UseCallback/Counter10";
+import Counter11 from "./UseMemo/Counter11";
 
 /**
  * App Component at root level.
@@ -32,6 +33,7 @@ function App() {
       </UserContext.Provider>
       <br />
       Counter10: <Counter10 /> <br />
+      Counter11: <Counter11 /> <br />
       <br />
     </div>
   );
